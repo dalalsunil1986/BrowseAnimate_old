@@ -1,0 +1,152 @@
+<resources>
+    <string name="app_name">BrowseAnimate</string>
+    <string name="browse_go">浏览</string>
+    <string name="start_record_success">启动摄像成功</string>
+    <string name="start_record_fail">启动摄像失败</string>
+    <string name="close_record_success">关闭摄像成功</string>
+    <string name="start_push_success">启动视频推送成功</string>
+    <string name="start_push_fail">启动视频推送失败</string>
+    <string name="close_push_success">关闭视频推送成功</string>
+    <string name="start_display_success">打开预览成功</string>
+    <string name="start_display_fail">打开预览失败</string>
+    <string name="setting_background">后台录制</string>
+    <string name="setting_background_valid">是</string>
+    <string name="setting_background_invalid">否</string>
+    <string name="setting_audio">音频</string>
+    <string name="setting_audio_bitrate">速率</string>
+    <string name="setting_audio_channels">声道</string>
+    <string name="setting_audio_mono">单声道</string>
+    <string name="setting_audio_stereo">立体声</string>
+    <string name="setting_audio_samplerate">采样率</string>
+    <string-array name="setting_audio_samplerate_array">
+        <item>22050</item>
+        <item>44100</item>
+        <item>48000</item>
+    </string-array>
+    <string name="setting_audio_codec">编码</string>
+    <string-array name="setting_audio_codec_array">
+        <item>AAC</item>
+        <item>AAC_ELD</item>
+        <item>HE_AAC</item>
+        <item>Default</item>
+    </string-array>
+    <string name="setting_video">视频</string>
+    <string name="setting_video_bitrate">速率</string>
+    <string name="setting_video_frame">分辨率</string>
+    <string name="setting_video_frame_rate">帧速</string>
+    <string name="setting_video_codec">编码</string>
+    <string-array name="setting_video_codec_array">
+        <item>H263</item>
+        <item>H264</item>
+        <item>MP4</item>
+        <item>Default</item>
+    </string-array>
+    <string name="setting_file_format">格式</string>
+    <string name="setting_file_format_mpeg4">MPEG4</string>
+    <string name="setting_file_format_default">Default</string>
+    <string name="setting_orientation">方向</string>
+    <string-array name="setting_orientation_array">
+        <item>0</item>
+        <item>90</item>
+        <item>180</item>
+        <item>270</item>
+    </string-array>
+    <string name="setting_confirm">确 定</string>
+    <string name="setting_add">添 加</string>
+    <string name="setting_cancel">取 消</string>
+    <string name="setting_save_success">保存成功</string>
+    <string name="setting_save_fail">保存失败</string>
+
+    <string name="setting_device_address">设备地址</string>
+    <string name="setting_device_use">使用中</string>
+    <string name="setting_device_select_title">请选择</string>
+    <string name="setting_device_select_message">选择哪种方式</string>
+    <string name="setting_device_select_add">添加</string>
+    <string name="setting_device_select_del">删除</string>
+    <string name="setting_device_select_use">使用</string>
+    <string name="setting_device_input_title">输入设备地址</string>
+    <string name="setting_device_same">有相同的设备地址</string>
+    <string name="setting_port_data">数据端口</string>
+    <string name="setting_port_cmd">控制端口</string>
+    <string name="setting_push_format">推送格式</string>
+    <string name="setting_audio_name">格式</string>
+    <string name="setting_video_name">格式</string>
+    <string name="setting_video_priv">参数</string>
+
+    <string-array name="setting_push_format_array">
+        <item>flv</item>
+    </string-array>
+
+    <string-array name="setting_audio_name_array">
+        <item>libfdk_aac</item>
+    </string-array>
+
+    <string-array name="setting_video_name_array">
+        <item>libx264</item>
+    </string-array>
+
+    <string name="collect_delete">是否删除</string>
+    <string name="collect_confirm">确 定</string>
+    <string name="collect_cancel">取 消</string>
+    <string name="collect_delete_success">删除成功</string>
+    <string name="collect_delete_fail">删除失败</string>
+    <string name="collect_blank">空白页面</string>
+    <string name="collect_save_success">收藏成功</string>
+    <string name="collect_save_fail">收藏失败</string>
+    <string name="collect_save_already">已收藏</string>
+
+    <string name="push_button_start_listen">开始监听</string>
+    <string name="push_button_close_listen">停止监听</string>
+    <string name="socket_server_listen_start_success">socket开始监听</string>
+    <string name="socket_server_listen_start_fail">socket监听失败</string>
+    <string name="socket_server_listen_close">socket停止监听</string>
+    <string name="socket_server_client_accept">%s成功连接</string>
+    <string name="socket_server_client_disconnect">%s断开连接</string>
+    <string name="socket_client_decoder_fail">解码失败</string>
+    <string name="wifip2p_found_device">发现设备</string>
+    <string name="wifip2p_button_server">开始监听</string>
+    <string name="wifip2p_button_client">开始链接</string>
+
+    <string name="push_select_method">选择网络方式</string>
+    <string name="push_select_network">WIFI、WIFIP2P</string>
+    <string name="push_select_wifi">WIFI</string>
+    <string name="push_select_wifip2p">WIFIP2P</string>
+    <string name="push_select_cancel">取 消</string>
+    <string name="push_select_address">输入IP地址</string>
+    <string name="push_error_wifip2p">不支持WIFIP2P</string>
+    <string name="push_error_device">设备名或设备地址不能为空</string>
+    <string name="push_error_no_found_device">没找到设备</string>
+    <string name="push_error_encoder">编码失败</string>
+    <string name="push_error_decoder">解码失败</string>
+    <string name="push_error_listen">监听端口错误</string>
+
+    <string-array name="push_record_items">
+        <item>摄录不关闭PUSH</item>
+        <item>摄录并关闭PUSH</item>
+        <item>关闭摄录不关闭PUSH</item>
+        <item>关闭摄录关闭PUSH</item>
+    </string-array>
+
+    <string name="push_record_confirm">确 定</string>
+    <string name="push_record_cancel">取 消</string>
+    <string name="push_record_title">请选择摄录模式</string>
+    <string name="push_record_connecting">连接设备中</string>
+    <string name="push_record_sending">发送设备中</string>
+    <string name="push_record_started">摄录已开始</string>
+    <string name="push_record_success">开始摄录成功</string>
+    <string name="push_record_fail">开始摄录失败</string>
+    <string name="push_record_close">摄录已关闭</string>
+
+    <string name="main_menu_setting">设置</string>
+    <string name="main_menu_collect">收藏网址</string>
+    <string name="main_menu_start_record">开始摄录</string>
+    <string name="main_menu_stop_record">停止摄录</string>
+    <string name="main_menu_start_push">开始监听</string>
+    <string name="main_menu_stop_push">停止监听</string>
+    <string name="main_menu_entry_push">进入播放</string>
+    <string name="main_menu_exit">退出应用</string>
+    <string name="main_menu_cancel">取消</string>
+
+    <string name="play_start_record">开始摄录</string>
+    <string name="play_stop_record">停止摄录</string>
+</resources>

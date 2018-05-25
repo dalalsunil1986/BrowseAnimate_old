@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/window_loading_background"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:background="#ffffffff"
+        android:padding="10dp"
+        android:text="@string/wifip2p_found_device"
+        android:textColor="#ff7cbce2"
+        android:textSize="20sp" />
+
+    <ListView
+        android:id="@+id/lv_device"
+        android:layout_width="320dp"
+        android:layout_height="350dp"
+        android:background="#ffffffff"
+        android:divider="#ff7cbce2"
+        android:dividerHeight="1dp"
+        android:fadingEdgeLength="0dp"
+        android:listSelector="@android:color/transparent" />
+
+</LinearLayout>
